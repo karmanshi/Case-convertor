@@ -12,8 +12,6 @@ const Caseconvertor = () => {
     setInput(input.toLowerCase())
   }
 
-
-
   const handleSentenceCase = () => {
     function sentenceCase(input) {
       const words = input.toLowerCase().split('.')
